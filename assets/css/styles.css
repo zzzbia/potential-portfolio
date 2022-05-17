@@ -3,6 +3,13 @@ header {
     justify-content: space-between;
     padding: 2%;
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1236px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1236px;
 }
 
 header h1 {
@@ -149,4 +156,72 @@ nav a:hover {
     letter-spacing: -0.01em;
     margin-bottom: 20px;
     color: #1F2041;
+}
+
+.work-section {}
+
+.work-section h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 191.25%;
+    /* or 115px */
+    letter-spacing: -0.01em;
+    color: #ED99C9;
+}
+
+.work {
+    position: relative;
+    margin: 0 auto;
+}
+
+.work a {
+    position: absolute;
+    bottom: 55px;
+    left: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 191.25%;
+    letter-spacing: -0.01em;
+    color: #ED99C9;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.work a:hover {
+    background: transparent;
+    outline: 1px solid #2C5FF6;
+    color: #1F2041;
+}
+
+.work.full {}
+
+.work.half {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+
+.work.half div {
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+.full img {
+    min-width: 100%;
+}
+
+.work.thirds {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
