@@ -1,3 +1,12 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #1F2041;
+    --blue: #2C5FF6;
+    --pink: #ED99C9;
+    --white: #ffffff;
+    --border-round: 20px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +27,7 @@ header h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
-    color: #1F2041;
+    color: var(--dark);
 
 }
 
@@ -30,13 +39,13 @@ nav a {
     line-height: 191.25%;
     /* or 57px */
     letter-spacing: -0.01em;
-    color: #1F2041;
+    color: var(--dark);
     text-decoration: none;
     margin-right: 10px;
 }
 
 nav a:hover {
-    color: #2C5FF6;
+    color: var(--blue);
 }
 
 .hero-section {
@@ -62,7 +71,7 @@ nav a:hover {
     line-height: 111.5%;
     /* or 72px */
     letter-spacing: -0.01em;
-    color: #1F2041;
+    color: var(--dark);
 }
 
 .hero-content h2 {
@@ -74,7 +83,7 @@ nav a:hover {
     /* identical to box height, or 31px */
     letter-spacing: -0.01em;
     margin-top: 20px;
-    color: #1F2041;
+    color: var(--dark);
 }
 
 .hero-content a {
@@ -84,7 +93,7 @@ nav a:hover {
     align-items: center;
     max-width: 161px;
     padding: 15.673px 26.8679px;
-    background: #2C5FF6;
+    background: var(--blue);
     box-shadow: 0px 13.434px 39.1824px rgba(21, 76, 238, 0.21);
     border-radius: 12px;
     font-family: 'Poppins';
@@ -95,14 +104,14 @@ nav a:hover {
     /* identical to box height */
     text-align: right;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--white);
     margin-top: 20px;
 }
 
 .hero-content a:hover {
     background: transparent;
-    outline: 1px solid #2C5FF6;
-    color: #1F2041;
+    outline: 1px solid var(--blue);
+    color: var(--dark);
     box-shadow: 0px 13.434px 39.1824px rgba(21, 76, 238, 0.21);
 }
 
@@ -140,7 +149,7 @@ nav a:hover {
     line-height: 191.25%;
     /* identical to box height, or 115px */
     letter-spacing: -0.01em;
-    color: #ED99C9;
+    color: var(--pink);
 }
 
 .about-content h2 {
@@ -153,7 +162,7 @@ nav a:hover {
     /* identical to box height, or 31px */
     letter-spacing: -0.01em;
     margin-bottom: 20px;
-    color: #1F2041;
+    color: var(--dark);
 
 }
 
@@ -165,7 +174,7 @@ p {
     line-height: 191.25%;
     /* or 33px */
     letter-spacing: -0.01em;
-    color: #1F2041;
+    color: var(--dark);
     margin: 8px auto;
 
 }
@@ -180,7 +189,7 @@ p {
     line-height: 191.25%;
     /* or 115px */
     letter-spacing: -0.01em;
-    color: #ED99C9;
+    color: var(--pink);
 }
 
 .work {
@@ -198,16 +207,16 @@ p {
     font-size: 25px;
     line-height: 191.25%;
     letter-spacing: -0.01em;
-    color: #ED99C9;
-    background-color: white;
+    color: var(--pink);
+    background-color: var(--white);
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
 }
 
 .work a:hover {
-    outline: 1px solid #2C5FF6;
-    color: #1F2041;
+    outline: 1px solid var(--blue);
+    color: var(--dark);
 }
 
 .work.full {}
@@ -269,7 +278,7 @@ footer {
     line-height: 191.25%;
     /* identical to box height, or 115px */
     letter-spacing: -0.01em;
-    color: #fff;
+    color: var(--white);
 }
 
 .contact-content h1:hover {
@@ -290,7 +299,7 @@ footer {
 }
 
 .contact-content a:hover {
-    color: #2C5FF6;
+    color: var(--blue);
     text-decoration: none;
 }
 
