@@ -17,5 +17,6 @@
 - [Color Palette Picker](https://colorhunt.co/)
 - [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [MDN Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Multiple Class and ID Selectors](https://css-tricks.com/multiple-class-id-selectors/)
 
 ## Future Improvement List
