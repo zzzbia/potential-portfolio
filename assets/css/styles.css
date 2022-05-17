@@ -66,14 +66,12 @@ nav a:hover {
 }
 
 .hero-content h2 {
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 170%;
     /* identical to box height, or 31px */
-
     letter-spacing: -0.01em;
     margin-top: 20px;
     color: #1F2041;
@@ -116,7 +114,7 @@ nav a:hover {
 
 .about-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     width: 100%;
     justify-content: space-around;
 }
@@ -124,8 +122,6 @@ nav a:hover {
 .about-image {
     min-width: 400px;
     height: auto;
-
-
 }
 
 .about-content {
@@ -222,6 +218,7 @@ p {
     flex-direction: row;
     justify-content: center;
     margin: 20px auto;
+    flex-wrap: wrap;
 }
 
 
@@ -239,7 +236,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 footer {
@@ -250,7 +247,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 
@@ -299,4 +296,55 @@ footer {
 
 .footer-image {
     align-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+    .work {
+        margin: 8px auto;
+    }
+
+    .work img {
+        max-width: 90vw;
+    }
+
+    .work a {
+        position: absolute;
+        bottom: 50px;
+        left: 25px;
+        font-size: 20px;
+    }
+
+    section {
+        padding: 0px 4px;
+    }
+
+    footer {
+        background: rgba(44, 95, 246, 0.23);
+        min-width: 100vw;
+        bottom: 0;
+        overflow-x: hidden;
+    }
+
+    main {
+        overflow-x: clip;
+    }
+
 }
