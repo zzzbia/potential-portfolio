@@ -154,6 +154,11 @@ nav a:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+/* Adds hover opacity to skills */
+.skills:hover {
+    opacity: 0.9;
+}
+
 .skills img {
     margin-top: -50px;
 }
@@ -274,6 +279,10 @@ p {
 .work a:hover {
     outline: 1px solid var(--blue);
     color: var(--dark);
+}
+
+.work:hover {
+    opacity: 0.9;
 }
 
 /* .work.full {} */
