@@ -62,8 +62,9 @@ nav a:hover {
 .hero-section {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: space-around;
+    padding: 0px 8px;
+
 }
 
 .hero-content {
@@ -266,6 +267,7 @@ p {
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .work a:hover {
@@ -298,9 +300,9 @@ p {
 }
 
 /* Makes work thirds container half visible on  hover */
-.work :hover {
+/* .work :hover {
     opacity: 0.9;
-}
+} */
 
 /* Contact Section  */
 footer {
@@ -413,11 +415,13 @@ footer {
         overflow-x: hidden;
     }
 
+    main {
+        overflow-x: clip;
+    }
 
 
     .skills {
         margin-top: 40px;
     }
-
 
 }
