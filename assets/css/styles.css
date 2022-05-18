@@ -253,8 +253,8 @@ p {
 }
 
 /* Makes work thirds container half visible on  hover */
-.work.thirds img:hover {
-    /* opacity: 0.9; */
+.work.thirds img src:hover {
+    opacity: 0.9;
 }
 
 /* Contact Section  */
@@ -371,5 +371,7 @@ footer {
     main {
         overflow-x: clip;
     }
+
+
 
 }
