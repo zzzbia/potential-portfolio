@@ -9,6 +9,10 @@
 }
 
 
+body {
+    overflow-x: clip;
+}
+
 /* Header styles */
 header {
     display: flex;
@@ -126,6 +130,47 @@ nav a:hover {
     width: 30%;
     min-width: 600px;
     height: auto;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.skills {
+    flex: 1 1 200px;
+    position: relative;
+    background-color: var(--pink);
+    height: 100%;
+    width: 90%;
+    margin-right: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.skills img {
+    margin-top: -50px;
+}
+
+.skills h1 {
+
+    font-family: 'Poppins', 'Roboto', 'Poppins', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 191.25%;
+    /* or 57px */
+    letter-spacing: -0.01em;
+    color: var(--white);
+}
+
+
+.skills img {
+    max-width: 50%;
 }
 
 .about-section {
@@ -253,7 +298,7 @@ p {
 }
 
 /* Makes work thirds container half visible on  hover */
-.work.thirds img src:hover {
+.work :hover {
     opacity: 0.9;
 }
 
@@ -368,10 +413,11 @@ footer {
         overflow-x: hidden;
     }
 
-    main {
-        overflow-x: clip;
-    }
 
+
+    .skills {
+        margin-top: 40px;
+    }
 
 
 }
