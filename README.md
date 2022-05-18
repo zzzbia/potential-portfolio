@@ -1,6 +1,6 @@
 # Portfolio Page Mockup
 
-## Description
+## ✏️ Description
 
 Portfolio Page Mock up to feature the web developer's projects, skills, and contact information. The page should be clean and easy to navigate, with the developer's skills and experience and a brief introduction to the developer.
 
@@ -21,9 +21,11 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
 - [Deployed Link](#Deployed-Link)
 - [References](#Refererences)
 
-## Screenshots
+## 🖼️ Screenshots
 
 ## Deployed Link
+
+[Potential Portfolio](https://zzzbia.github.io/potential-portfolio/)
 
 ## Wireframe
 
@@ -39,3 +41,5 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
 - [Multiple Class and ID Selectors](https://css-tricks.com/multiple-class-id-selectors/)
 - [W3 Schools Media Query Guide](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - [W3 Schools Root Variable](https://www.w3schools.com/css/css3_variables.asp)
+- [CSS Tricks Align Content](https://css-tricks.com/almanac/properties/a/align-content/)
+- [W3 Schools Image Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
