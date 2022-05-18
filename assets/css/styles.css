@@ -151,6 +151,7 @@ nav a:hover {
     justify-content: space-between;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .skills img {
