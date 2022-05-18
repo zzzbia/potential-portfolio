@@ -16,12 +16,20 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
 ## 📜 Table of Contents
 
 - [Description](#description)
-- [Screenshots](#screenshots)
-- [Image Reference](#images)
-- [Deployed Link](#Deployed-Link)
-- [References](#Refererences)
+- [Images and Screenshots](#images-and-screenshots)
+- [Deployed Link](#deployed-Link)
+- [Wireframe](#wireframe)
+- [References](#References)
 
-## 🖼️ Screenshots
+## 🖼️ Images and Screenshots
+
+![Mobile Responsive](https://github.com/zzzbia/potential-portfolio/blob/main/assets/images/mobileresponsive1.png?=raw=true)
+
+![Mobile Responsive](https://github.com/zzzbia/potential-portfolio/blob/main/assets/images/mobileresponsive2.png?=raw=true)
+
+![Mobile Responsive](https://github.com/zzzbia/potential-portfolio/blob/main/assets/images/mobileresponsive3.png?=raw=true)
+
+![Mobile Responsive](https://github.com/zzzbia/potential-portfolio/blob/main/assets/images/mobileresponsive4.png?=raw=true)
 
 ## Deployed Link
 
