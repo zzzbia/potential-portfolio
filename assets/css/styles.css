@@ -1,3 +1,4 @@
+/* Root Selector */
 :root {
     /* declare a variable with `--` syntax */
     --dark: #1F2041;
@@ -7,6 +8,7 @@
     --border-round: 20px;
 }
 
+/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -16,11 +18,13 @@ header {
     max-width: 1236px;
 }
 
+/* Base Section Dimensions*/
 section {
     margin: 0 auto;
     max-width: 1236px;
 }
 
+/* Header h1 style, Logo */
 header h1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -31,6 +35,7 @@ header h1 {
 
 }
 
+/* Navigation anchor */
 nav a {
     font-family: 'Poppins';
     font-style: normal;
@@ -48,6 +53,7 @@ nav a:hover {
     color: var(--blue);
 }
 
+/* Hero Container Styles */
 .hero-section {
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +145,7 @@ nav a:hover {
     flex-direction: column;
     max-width: 600px;
     justify-content: center;
+    margin: 10px;
 }
 
 .about-content h1 {
@@ -179,7 +186,7 @@ p {
 
 }
 
-.work-section {}
+/* .work-section {} */
 
 .work-section h2 {
     font-family: 'Poppins';
@@ -219,7 +226,7 @@ p {
     color: var(--dark);
 }
 
-.work.full {}
+/* .work.full {} */
 
 .work.half {
     width: 100%;
@@ -248,6 +255,7 @@ p {
     flex-wrap: wrap;
 }
 
+/* Contact Section  */
 footer {
     background: rgba(44, 95, 246, 0.23);
     width: 100%;
@@ -307,6 +315,7 @@ footer {
     align-content: space-between;
 }
 
+/* Media Query Resizing */
 @media screen and (max-width: 768px) {
 
     main,
@@ -324,6 +333,11 @@ footer {
 
     .hero-content h1 {
         font-size: 50px;
+    }
+
+    /* paragraph style for the About Section */
+    p {
+        margin: 10px auto;
     }
 
     .work {

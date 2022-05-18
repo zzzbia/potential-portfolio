@@ -13,7 +13,13 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
   - How to Contact Me
 - Responsive Layout for Different Screen sizes
 
-## Table of Contents
+## 📜 Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Image Reference](#images)
+- [Deployed Link](#Deployed-Link)
+- [References](#Refererences)
 
 ## Screenshots
 
@@ -21,7 +27,9 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
 
 ## Wireframe
 
-## 📝 Reference Links
+[Figma Wireframe](https://www.figma.com/file/DPUDs9L3CGUXX08qArba1O/Portfolio-Mockup?node-id=8%3A10)
+
+## 📝 References
 
 - [CSS Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Professional Read me Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
@@ -30,3 +38,4 @@ Portfolio Page Mock up to feature the web developer's projects, skills, and cont
 - [MDN Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 - [Multiple Class and ID Selectors](https://css-tricks.com/multiple-class-id-selectors/)
 - [W3 Schools Media Query Guide](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- [W3 Schools Root Variable](https://www.w3schools.com/css/css3_variables.asp)
