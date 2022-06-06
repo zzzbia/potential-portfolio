@@ -403,6 +403,14 @@ footer {
         margin: 8px auto;
     }
 
+    .work-section h2 {
+        text-align: center;
+    }
+
+    .about-content h1 {
+        text-align: center;
+    }
+
     .work img {
         max-width: 90vw;
     }
